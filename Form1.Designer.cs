@@ -375,9 +375,9 @@
             // pbKayitBilgi
             // 
             pbKayitBilgi.Image = Properties.Resources.yeni;
-            pbKayitBilgi.Location = new Point(436, 88);
+            pbKayitBilgi.Location = new Point(433, 89);
             pbKayitBilgi.Name = "pbKayitBilgi";
-            pbKayitBilgi.Size = new Size(30, 33);
+            pbKayitBilgi.Size = new Size(40, 30);
             pbKayitBilgi.SizeMode = PictureBoxSizeMode.CenterImage;
             pbKayitBilgi.TabIndex = 10;
             pbKayitBilgi.TabStop = false;
