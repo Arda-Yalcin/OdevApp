@@ -131,6 +131,7 @@
             lbOgrenciler.Name = "lbOgrenciler";
             lbOgrenciler.Size = new Size(194, 390);
             lbOgrenciler.TabIndex = 1;
+            lbOgrenciler.SelectedIndexChanged += lbOgrenciler_SelectedIndexChanged;
             // 
             // label2
             // 
@@ -356,6 +357,7 @@
             btnEkleGuncelle.TabIndex = 8;
             btnEkleGuncelle.Text = "Ekle/Güncelle";
             btnEkleGuncelle.UseVisualStyleBackColor = false;
+            btnEkleGuncelle.Click += btnEkleGuncelle_Click;
             // 
             // lblKayitBilgi
             // 
