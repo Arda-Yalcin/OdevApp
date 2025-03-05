@@ -88,6 +88,7 @@
             btnKaydet.TabIndex = 9;
             btnKaydet.Text = "Kaydet";
             btnKaydet.UseVisualStyleBackColor = false;
+            btnKaydet.Click += btnKaydet_Click;
             // 
             // label1
             // 
@@ -345,6 +346,7 @@
             btnYeni.TabIndex = 8;
             btnYeni.Text = "Yeni";
             btnYeni.UseVisualStyleBackColor = false;
+            btnYeni.Click += btnYeni_Click;
             // 
             // btnEkleGuncelle
             // 
