@@ -1,6 +1,8 @@
 using System.ComponentModel;
 using System.Text.Json;
 
+
+
 namespace OdevApp
 {
     public partial class Form1 : Form
@@ -26,6 +28,7 @@ namespace OdevApp
             lbOgrenciler.DataSource = ogrenciler;
             lbOgrenciler.DisplayMember = "Bilgi";
         }
+
 
         void Ekle()
         {
@@ -61,6 +64,7 @@ namespace OdevApp
             nudPuan.Value = 0;
         }
 
+
         void Guncelle()
         {
             if (secili != null)
@@ -77,6 +81,7 @@ namespace OdevApp
                 ogrenciler.ResetBindings();
             }
         }
+
         private void btnEkleGuncelle_Click(object sender, EventArgs e)
         {
             if (secili == null)
